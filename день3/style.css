@@ -1,0 +1,349 @@
+@font-face {
+    font-family: 'gilroy-bold';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Gilroy-Bold'), url(https://fonts.cdnfonts.com/s/16219/Gilroy-Bold.woff) format('woff')
+}
+
+@font-face {
+    font-family: 'gilroy-heavy';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Gilroy-Heavy'), url(https://fonts.cdnfonts.com/s/16219/Gilroy-Heavy.woff) format('woff')
+}
+
+@font-face {
+    font-family: 'gilroy-light';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Gilroy-Light'), url(https://fonts.cdnfonts.com/s/16219/Gilroy-Light.woff) format('woff')
+}
+
+@font-face {
+    font-family: gilroy-medium;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Gilroy-Medium'), url(https://fonts.cdnfonts.com/s/16219/Gilroy-Medium.woff) format('woff')
+}
+
+@font-face {
+    font-family: 'gilroy-regular';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Gilroy-Regular'), url(https://fonts.cdnfonts.com/s/16219/Gilroy-Regular.woff) format('woff')
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'gilroy-regular';
+    font-style: normal;
+}
+
+button {
+    font-family: 'gilroy-regular';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.flex {
+    display: flex;
+}
+
+.list-inner {
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 15px;
+}
+
+.list-inner li:not(:last-child) {
+    margin-right: 31px;
+}
+
+.header {
+    justify-content: space-between;
+    margin: 27px 0;
+    padding: 23px 0;
+}
+
+.logo {
+    margin-left: 80px;
+}
+
+.btn {
+    padding: 0 20px;
+    margin-right: 35px;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #F7941E;
+    border: 1px solid #F7941E;
+    border-radius: 5px;
+    background-color: white;
+
+}
+
+.block {
+    width: 50%;
+    background: #F1F1F2;
+}
+
+.blocks {
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.block-inner-left {
+    margin: 155px 125px 135px 160px;
+}
+
+.block-inner-left h1 {
+    font-size: 56px;
+    line-height: 69px;
+    margin-bottom: 36px;
+    color: #000000;
+}
+
+.block-inner-txt {
+    font-size: 20px;
+    line-height: 140.62%;
+    margin-bottom: 50px;
+}
+
+.btn-block {
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: #F7941E;
+    border: 1px solid #F7941E;
+    padding: 20px 25px;
+
+}
+
+.bg {
+    background: #F7941E;
+    color: #FFFFFF;
+
+}
+
+.block-inner-rigth {
+    margin: 165px 165px 105px 110px;
+}
+
+.block-inner-rigth h2 {
+    font-size: 32px;
+    line-height: 140.62%;
+    margin-bottom: 20px;
+}
+
+.block-inner-rigth p {
+    margin-bottom: 35px;
+    font-size: 20px;
+    line-height: 140.62%;
+
+}
+
+.gift-title {
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+
+    text-align: center;
+    margin-bottom: 23px;
+}
+
+.gifts p {
+    font-size: 18px;
+    line-height: 135.94%;
+    /* identical to box height, or 24px */
+
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.cards {
+    margin: 0 135px 128px 135px;
+    justify-content: space-between;
+}
+
+.card-bottom {
+    flex-direction: column;
+
+    align-self: baseline;
+    min-height: 166px;
+    justify-content: space-between;
+    padding: 24px;
+    background: #FAFAFA;
+}
+
+.card:hover {
+    filter: drop-shadow(-12px 10px 15px rgba(0, 0, 0, 0.29));
+
+}
+
+.gifts {
+    margin-bottom: 128px;
+}
+
+.orange-line {
+    background-color: #F7941E;
+    padding: 75px 235px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+}
+
+.pd {
+    padding-top: 50%;
+}
+
+.left h3 {
+    font-size: 32px;
+    line-height: 140.62%;
+}
+
+.left p {
+    font-size: 32px;
+    line-height: 140.62%;
+}
+
+.buttons :not(:last-child) {
+    margin-right: 50px;
+}
+
+.btn-gift {
+    margin-top: 40px;
+    padding: 10px 25px;
+    font-size: 18px;
+    line-height: 134.77%;
+    /* identical to box height, or 24px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.orange {
+    background-color: #F7941E;
+}
+
+.black {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.right {
+    display: flex;
+}
+
+.our p {
+    text-align: center;
+}
+
+
+.our-top-rigth {
+    width: 100%;
+    background: #231F20;
+    padding: 60px 200px 50px 80px;
+
+}
+
+.our-top-left img {
+    height: 350px;
+    width: 100%;
+}
+
+.top {
+    font-size: 14px;
+    line-height: 140.62%;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+
+.block img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.middle {
+    margin-bottom: 60px;
+
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+    color: #FFFFFF;
+
+}
+
+.our-top-rigth>div {
+    max-width: 500px;
+}
+
+.bottom {
+    font-size: 18px;
+    line-height: 140.62%;
+    /* identical to box height, or 25px */
+
+
+    color: #FFFFFF;
+}
+
+.bottom-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 140.62%;
+}
+.our-bottom > div {
+    margin: 0 135px 80px 135px;
+}
+.our-top  {
+    margin-bottom: 40px;
+}
+
+.our-bottom-inner {
+    margin: 50px;
+}
+
+.our-bottom-inner p {
+    padding-top: 16px;
+    font-size: 18px;
+line-height: 140.62%;
+    margin-bottom: 16px;
+}
+.footer > div {
+    display: flex;
+    justify-content: center;
+    margin: 105px 220px 55px 220px;
+    padding-bottom: 45px;
+    border-bottom: 1px solid #000000;
+
+}
+.footer-top-left {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-top-left :not(:last-child) {
+    margin-right: 81px;
+}
+.footer-middle img {
+    margin: 0 140px;
+}
